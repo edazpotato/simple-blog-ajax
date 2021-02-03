@@ -11,10 +11,12 @@ I plan on making something similar to this, but with Server-side rendering inste
 5. `npm run start`
 6. Go to [http://localhost](http://localhost) in your browser. Congratulations, you just made a blog!!!
 7. You can customize the look of the site by changing files in the `public/` directory
-8. Replace the contents of `posts.json` with an empty array to clear out my example posts
+8. Replace the contents of `posts.json` with an empty array to clear out my example posts.
 
 ```json
 {
 	"posts": []
 }
 ```
+
+9. Got to [http://localhost/post](http://localhost/post/) and fill in the form to create a post. The posting token needs to exactly match the one you set in the `.env` file.
