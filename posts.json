@@ -1,0 +1,16 @@
+{
+	"posts": [
+		{
+			"title": "Moving to the apache 2.0 license",
+			"content": "# It's kinda self explanatory.\r\n\r\nBasically, I don't want to be *sued*, so from now on, all my new projects will be licensed under the **[Apache 2.0 Licence](https://www.apache.org/licenses/LICENSE-2.0)** rather than the **[MIT Licence](https://opensource.org/licenses/MIT)**.\r\nThese two licenses are very similar in almost every regard:\r\n\r\n\r\n## MIT\r\n- Do whatever the hell you want\r\n\r\n## Apache 2.0\r\n- Do whatever the hell you want\r\n- Don't sue me\r\n\r\nSo yeah. Don't sue me, please.\r\n",
+			"date": "Wed Feb 03 2021 23:12:04 GMT+1300 (New Zealand Daylight Time)",
+			"id": "moving-to-the-apache-2-0-license_wed-feb-03-2021-23-12-04-gmt-1300-new-zealand-daylight-time_96"
+		},
+		{
+			"title": "First post",
+			"date": "Wed Feb 03 2021 12:14:03 GMT+1300 (New Zealand Daylight Time)",
+			"content": "# Hello, World!\n```js\nvar banana = new Date();\n```\n### Yeet\nThis is the blog site I made. I might post stuff here occasionally ig.",
+			"id": "dfirst-post_wed-feb-03-2021-12-14-03-gmt-1300-new-zealand-daylight-time_200"
+		}
+	]
+}

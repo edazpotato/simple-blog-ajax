@@ -1,0 +1,115 @@
+:root {
+	--background: #eeeeee;
+	--post-background: #ffffff;
+	--border: #000000;
+	--text: #444444;
+	--beefy-text: #000000;
+	--jump-link: #1b1f23;
+}
+
+* {
+	color: var(--text);
+	box-sizing: border-box;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	width: auto;
+	line-height: 1.8;
+	font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: 1.4;
+	color: var(--beefy-text);
+}
+
+hr {
+	border-top: 1px solid var(--border);
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	width: 100%;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	background-color: var(--background);
+}
+main {
+	flex: 1;
+	width: 100%;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 0.2rem;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
+	text-align: center;
+	padding: 1.2rem;
+}
+.title {
+	font-size: 4rem;
+}
+.subtitle {
+	font-size: 1rem;
+}
+
+.post {
+	flex: 1;
+	margin: 40px auto;
+	border: 1px solid var(--border);
+	background-color: var(--post-background);
+	border-radius: 10px;
+	padding: 30px;
+}
+
+/* Title anchors */
+.anchor {
+	float: left;
+	line-height: 1;
+	margin-left: -20px;
+	padding-right: 4px;
+}
+
+h1 .anchor:focus,
+h2 .anchor:focus,
+h3 .anchor:focus {
+	outline: none;
+}
+
+h1 .octicon-link,
+h2 .octicon-link,
+h3 .octicon-link {
+	color: var(--jump-link);
+	vertical-align: middle;
+	visibility: hidden;
+}
+
+h1:hover .anchor .octicon-link,
+h2:hover .anchor .octicon-link,
+h3:hover .anchor .octicon-link {
+	visibility: visible;
+}
+
+.hljs,
+code {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border-radius: 0.3rem;
+}
